@@ -2,7 +2,7 @@
 layout: default
 ---
 
-# Building a 6502 Breadboard Computer
+# 6502 Breadboard Computer
 
 A while back I came across a fascinating project by a well known Youtuber, Ben Eater, in which he walks through the theory and process involved in building out a simple 8-bit breadboard computer built around the 6502 processor.  You can find this playlist [here](https://www.youtube.com/watch?v=LnzuMJLZRdU&list=PLowKtXNTBypFbtuVMUVXNR0z1mu7dp7eH) or visit his website [here](https://eater.net/6502).  I enjoyed his series quite a bit and set out to build my own 8-bit computer.  In some ways I'm following his design exactly and in others I've chosen to deviate.
 
