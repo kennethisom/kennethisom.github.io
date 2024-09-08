@@ -2,23 +2,27 @@
 layout: default
 ---
 
-# Topics
+# My Current Projects
 
-## Electronics
+* [Building a 6502 Breadboard Computer (inspired by Ben Eater)](./projects/6502-breadboard-computer/index.html)
 
-### Current Project
+# How-To's
 
-* [Building a PS/2 Keyboard Interface](./posts/electronics/ps2-keyboard-interface.html)
-* Building a 6502 Breadboard Computer (Pretend like I wrote this already... Hopefully I'll get to it soon...)
-* Using a Raspberry PI Pico as a VGA controller (Same Story)
+Here's a couple of ideas to get me started.
 
-## Software Development
+* Serial Monitor Options on Ubuntu (TODO)
+* Programming PLDs on Ubuntu (TODO)
 
-* Automation (This will be the first thing I focus on but if it's not clear yet, I'm just getting started)
+# Blog Posts
 
-## Probably eventually other stuff...
+I don't have any lined up yet but here I will post links to any one-off topics that I feel a need to write about.  Most likely these will be related to projects I'm working on, personal interests such as wood working and astronomy.  Time will tell.
 
-Just getting started.  Who knows what else might end up on here one day.
+* Automation
+* Personal Manifesto
+
+# Past Projects
+
+Eventually we'll get here...
 
 # One last thing...
 
