@@ -38,13 +38,15 @@ This stage is intended to be a quick follow on to make sure I have an early mean
 
 ## Phase 3 - Implement a PS/2 Keyboard Interface to use in place of RS232 for input
 
-Adding PS/2 Keyboard support will be another deviation from Ben's original implementation. I decided to go the route of creating a more robust PS/2 interface using an AT microcontroller.  Originally I wanted to make use of an ATTINY85 combined with a 74HC595, but due to the increased difficulty associated with debugging this style of microcontroller, I opted to start with the ATMEGA328PU instead for the initial implementation.
+Adding PS/2 Keyboard support will be another deviation from Ben's original implementation. I decided to go the route of creating a more robust PS/2 interface using an AT microcontroller.  Originally I wanted to make use of an ATTINY85 combined with a 74HC595, but due to the increased difficulty associated with debugging this style of microcontroller, I opted to start with the ATMEGA328PU instead for the initial implementation.  This microcontroller will be responsible for directly interfacing with the PS/2 keyboard, interpreting character into their ASCII format, managing control codes.  At this time my intention is to interface with the 6502 via the 6522 interface adapter.
 
-I will likely come back to the ATTINY85 solution later on and depending on how the project goes I may even attempt later on to achieve a fully hardware based solution and remove the micro controller altogether.
+I will likely come back to the ATTINY85 solution later on and depending on how the project goes I may even attempt later on to achieve a fully hardware based solution and remove the microcontroller altogether.
 
 ## Phase 4 - Implement VGA support
 
 I considered following Ben's example to implement this purely out of hardware also, though with gray scale support initially instead of color.  But I later decided that in the interest of learning how to interface graphics processing with an 8-bit computer that I would instead make use of a Raspberry PI Pico to handle the video processing and display.  Here again I may come back at a later time to explore a non-microcontroller solution, but time will tell.
+
+After some initial research, while it seems like an era-true solution may not really be feasible (other than buying used/salvaged parts), it does seem like a common chip, the TMS9918A, is very well documented.  So my plan is to try and create my microcontroller solution in a way that it will mimic how that chip worked at least from an external interface perspective.
 
 ## Phase 5 - Add support for flash/external storage
 
